@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Darshani Gopalkar - UX/UI Designer Portfolio. Creative problem solver passionate about designing meaningful digital experiences.">
+    <meta name="keywords" content="UX Designer, UI Designer, User Experience, Portfolio, Darshana Gopalkar, Design, Figma, Canva">
+    <meta name="author" content="Darshani Gopalkar">
+    
+    <title>Darshani Gopalkar- UX/UI Designer Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <circle cx="16" cy="16" r="14" stroke="url(#gradient)" stroke-width="2"/>
+                        <path d="M12 16l4 4 8-8" stroke="url(#gradient)" stroke-width="2" fill="none"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea"/>
+                                <stop offset="100%" style="stop-color:#764ba2"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="brand-text">Darshani Gopalkar</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+            <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            <a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a>
+            <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting fade-in">
+                        <div class="greeting-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                            </svg>
+                            <span>Hello, I'm Darshana!</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Aspiring UI/UX Designer 
+                            <span class="gradient-text">with a Data-Driven Mindset</span>
+                        </h1>
+                    </div>
+
+                    <div class="hero-description fade-in-delay">
+                        <p>
+                           Pursuing a B.Tech in Artificial Intelligence & Data Science with a growing passion for UI/UX design. Actively learning UI/UX principles and design methods through self-initiated projects. Skilled in tools like Figma and Canva for creating clean, user-focused interfaces. Eager to bridge technology and design to craft meaningful digital experiences.
+                        </p>
+                    </div>
+
+                  <div class="hero-cta fade-in-delay-2"> 
+                    <div class="button-group">
+                        <a href="assets/Darshana_Gopalkar_Resume.pdf" target="_blank" class="btn primary-btn">
+                            <i class="fa-solid fa-file-lines"></i> Check Resume
+                        </a>
+                        <a href="#contact" class="btn secondary-btn">
+                            <i class="fa-solid fa-envelope"></i> Let’s Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="hero-image fade-in">
+                    <div class="image-container">
+                        <div class="main-photo">
+                            <img src="images/Me.jpg" alt="Darshana Gopalkar - UIUX Designer">
+                        </div>
+                        
+                        <div class="floating-badge badge-1">
+                            <div class="badge-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <span>Figma Designer</span>
+                        </div>
+                        
+                        <div class="floating-badge badge-2">
+                            <div class="badge-icon badge-icon-purple">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="m22 21-3-3m0 0a5.5 5.5 0 1 1-7.8-7.8 5.5 5.5 0 0 1 7.8 7.8Z"/>
+                                </svg>
+                            </div>
+                            <span>Front-End Aware</span>
+                        </div>
+
+                        <div class="floating-badge badge-3">
+                            <div class="badge-icon badge-icon-green">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v20M2 12h20"/>
+                                    <path d="M7.5 7.5 16.5 16.5"/>
+                                    <path d="M16.5 7.5 7.5 16.5"/>
+                                </svg>
+                            </div>
+                            <span>Canva Creator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">An Aspiring UI/UX Designer. Crafting clean, user-centric designs that connect people and products</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-intro">
+                    <div class="intro-card">
+                        <div class="intro-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z"/>
+                            </svg>
+                        </div>
+                        <h3>Hi there! 👋</h3>
+                        <p>
+                           I'm currently pursuing a B.Tech in Artificial Intelligence & Data Science from Shivaji University. I’m deeply passionate about UI/UX design and driven by the goal of building intuitive, functional, and visually compelling digital experiences. I actively learn design principles and tools through self-initiated projects, combining creativity with user research to bring ideas to life.
+                        </p>
+                        <p>
+                            Skilled in tools like Figma, Canva, and Kittle, I'm continuously growing my expertise in wireframing, layout design, and design systems. Whether it's mobile app design or social media creatives, I strive to bridge the gap between aesthetics and usability.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="m22 21-3-3m0 0a5.5 5.5 0 1 1-7.8-7.8 5.5 5.5 0 0 1 7.8 7.8Z"/>
+                                </svg>
+                            </div>
+                            <h4>Social Media Design</h4>
+                            <p>Instagram posts, Carousels, Marketing Creatives</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
+                            <h4>UI/UX Design</h4>
+                            <p>Creating intuitive and beautiful interfaces that users love</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v20M2 12h20"/>
+                                    <path d="M7.5 7.5 16.5 16.5"/>
+                                    <path d="M16.5 7.5 7.5 16.5"/>
+                                </svg>
+                            </div>
+                            <h4>Prototyping</h4>
+                            <p>Bringing ideas to life with interactive prototypes and wireframes</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"/>
+                                    <polyline points="8,6 2,12 8,18"/>
+                                </svg>
+                            </div>
+                            <h4>Front-end Basics</h4>
+                            <p>HTML, CSS, and JavaScript knowledge for better design implementation</p>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="tools-section">
+                    <h2>Tools I Use</h2>
+                        <div class="tools-grid">
+                            <div class="tool-card">
+                                <i class="fa-brands fa-figma icon"></i>
+                                <p>Figma</p>
+                                </div>
+                            <div class="tool-card">
+                                <i class="fa-solid fa-palette icon"></i>
+                                <p>Canva</p>
+                            </div>
+                            <div class="tool-card">
+                                <i class="fa-solid fa-pen-nib icon"></i>
+                                <p>Kittle</p>
+                            </div>
+                            <div class="tool-card">
+                                <i class="fa-solid fa-brush icon"></i>
+                                <p>Photoshop</p>
+                            </div>
+                        </div>
+                </section>
+
+<!-- Education section-->
+   <div class="education-section">
+    <h3>Education</h3>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <div class="timeline-year">2022 – 2026</div>
+                <h4>B.Tech – Artificial Intelligence & Data Science</h4>
+                <p>Shivaji University</p>
+                <p>CGPA: 8.80 / 10</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <div class="timeline-year">2020 – 2022</div>
+                <h4>Higher Secondary (XII) – Science</h4>
+                <p>Vyankatrao Junior College, Ichalkaranji</p>
+                <p>Maharashtra State Board</p>
+                <p>Percentage: 72.84%</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Explore my design journey through these projects</p>
+            </div>
+
+
+            <div class="projects-grid">
+                <div class="project-card" data-project="0">
+                    <div class="project-image">
+                    <img src="images/restaurant-app.jpg" alt="Restaurant App">
+                    <div class="project-overlay">
+                        <button class="view-project-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        Overview
+                        </button>
+                </div>
+            </div>
+
+                <div class="project-content">
+                    <div class="project-category">UX Design</div>
+                        <h3 class="project-title">Restaurant App</h3>
+                            <p class="project-description">Designed a mobile app interface for food ordering and table booking to create a seamless dining experience.
+                        <ul>
+                            <li>Real-time table reservation</li>
+                            <li>Menu browsing with categories and pricing</li>
+                            <li>Cart and payment flow</li>
+                            <li>Order status tracking</li>
+                        </ul>
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Mobile App</span>
+                        <span class="project-tag">User Research</span>
+                        <span class="project-tag">Wireframes</span>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="images/ElectronicGuru.jpg" alt="E-commerce Website UI">
+
+                        <div class="project-overlay">
+                            <button class="view-project-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                                Overview
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">UX/UI Design</div>
+                        <h3 class="project-title">E-commerce Website UI (Electronics Store)</h3>
+                        <p class="project-description">Built a responsive UI for a fictional electronics store with a strong focus on user experience and layout structure.
+                            <ul>
+                                <li>Homepage banners & product categories</li>
+                                <li>Filterable product listings & detail pages</li>
+                                <li>Cart and secure checkout pages</li>
+                            </ul>
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web App</span>
+                            <span class="project-tag">Figma</span>
+                            <span class="project-tag">Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                      <img src="images/Canva.jpg" alt="Social Media">
+                        <div class="project-overlay">
+                            <button class="view-project-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                                Overview
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <div class="project-category">Social Media</div>
+                        <h3 class="project-title">Social Media Creatives & Ad Banners</h3>
+                        <p class="project-description">Created social media graphics and carousels for fictional campaigns to drive engagement.
+                            <ul>
+                                <li>Instagram carousels & reels covers</li>
+                                <li>Giveaway & product launch posters</li>
+                                <li>Brand-consistent templates</li>
+                            </ul>
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Canva</span>
+                            <span class="project-tag">Local Business</span>
+                            <span class="project-tag">Social Features</span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    
+
+ <!-- Ahievement Section -->
+<section class="achievements-section">
+    <h3>Achievements</h3>
+
+    <div class="achievements-row">
+
+        <div class="achievement-card">
+            <i class="fas fa-trophy achievement-icon"></i>
+            <h4>UI Design Competition (2024)</h4>
+            <p>Won 1st place in a national-level UI/UX design challenge.</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class="fas fa-medal achievement-icon"></i>
+            <h4>Paper Presentation (2023)</h4>
+            <p>2nd Runner-Up for presenting on design systems and user flow.</p>
+        </div>
+
+        <div class="achievement-card">
+            <i class="fas fa-star achievement-icon"></i>
+            <h4>Academic Rank (2023)</h4>
+            <p>Ranked 3rd in university for first-year academic performance.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">
+                    I'm always excited to discuss new opportunities and collaborate on meaningful projects. 
+                    Let's create something amazing together!
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Get in Touch</h3>
+                        <p>
+                            I'm currently seeking my first UX role where I can contribute to user-centered design 
+                            and continue growing as a designer. I'd love to hear about opportunities where I can 
+                            make a meaningful impact.
+                        </p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>darshanigopalkar@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 9890617631</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Ichalkaranji, IND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="social-links">
+                        <h4>Connect with me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/darshani-gopalkar-092517311?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BSstNM5UTKmRsjm4pCl4Xg%3D%3D" class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i> 
+                            </a>
+                            <a href="https://github.com/DarshaniGopalkar" class="social-link" title="Github">
+                                   <i class="fab fa-github"></i> 
+                            </a>
+                            <!-- <a href="#" class="social-link" title="Behance">
+                                   <i class="fab fa-behance"></i> 
+
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div id="formMessage" style="margin-top: 10px; text-align: center;"></div>
+                    <form class="contact-form" id="contactForm" method="POST" action="contact.php">
+                        <h3>Send a Message</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" >Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required rows="5" placeholder="Tell me about your project or opportunity..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2 11 13"/>
+                                <path d="m22 2-7 20-4-9-9-4z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Darshani Gopalkar</h3>
+                    <p>UX Explorer & Creative Problem Solver passionate about designing meaningful digital experiences</p>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Darshani Gopalkar. All rights reserved.</p>
+                    
+                    <button class="back-to-top" onclick="scrollToTop()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 14l5-5 5 5"/>
+                        </svg>
+                        Back to top
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6 6 18"/>
+                        <path d="m6 6 12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const status = urlParams.get('status');
+            const messageDiv = document.getElementById('formMessage');
+
+            if (status === 'success') {
+                messageDiv.innerHTML = '<p style="color: green;">Message sent successfully!</p>';
+                // Clear form fields after successful submission
+                document.getElementById('contactForm').reset();
+            } else if (status === 'error') {
+                const errorMessage = urlParams.get('message');
+                if (errorMessage === 'form_not_submitted') {
+                    messageDiv.innerHTML = '<p style="color: red;">Please submit the form correctly.</p>';
+                } else {
+                    messageDiv.innerHTML = '<p style="color: red;">Failed to send message. Please try again later.</p>';
+                }
+            }
+            // Remove the status parameter from the URL after displaying the message
+            if (status) {
+                history.replaceState(null, document.title, window.location.pathname);
+            }
+        });
+    </script>
+</body>
+</html>
