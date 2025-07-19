@@ -16,11 +16,17 @@ Welcome to my personal portfolio — a modern, responsive, and fully functional 
 
 
 💡 Features
+
 🎨 Modern responsive design
+
 🖼️ Project showcase with images and descriptions
+
 📥 Working contact form (Node + Express + Nodemailer)
+
 📂 Deployed live via Render
+
 🌍 Optional custom domain integration
+
 
  📁 Folder Structure
  
